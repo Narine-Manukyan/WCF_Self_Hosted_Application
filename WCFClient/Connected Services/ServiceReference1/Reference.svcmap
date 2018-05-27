@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="c3232aef-fa45-41f1-b18d-a9231d4a8bb2" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:4090/IWorkWithBookService" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IWorkWithBookService.xsd" MetadataType="Schema" ID="62a32b21-253a-47ce-a136-3eae96d0ec37" SourceId="1" SourceUrl="http://localhost:4090/IWorkWithBookService?xsd=xsd2" />
+    <MetadataFile FileName="IWorkWithBookService1.xsd" MetadataType="Schema" ID="e380f1cf-7c40-4571-8c0c-8ca49d51e31c" SourceId="1" SourceUrl="http://localhost:4090/IWorkWithBookService?xsd=xsd1" />
+    <MetadataFile FileName="WorkWithBookService.wsdl" MetadataType="Wsdl" ID="31aabf25-471f-40b5-8056-2cd6f022941a" SourceId="1" SourceUrl="http://localhost:4090/IWorkWithBookService?wsdl" />
+    <MetadataFile FileName="IWorkWithBookService.disco" MetadataType="Disco" ID="2df2f35d-9513-4015-bdb0-2118660d8d8e" SourceId="1" SourceUrl="http://localhost:4090/IWorkWithBookService?disco" />
+    <MetadataFile FileName="IWorkWithBookService2.xsd" MetadataType="Schema" ID="c40249db-c9cd-417a-a924-f169f99fadf4" SourceId="1" SourceUrl="http://localhost:4090/IWorkWithBookService?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
